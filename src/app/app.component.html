@@ -9,9 +9,11 @@
   <button id="addStudents" (click)="addStudentEntry()">Add Student Entry</button>
   <button id="listStudents" (click)="listStudents()">listStudents</button>
 </div>
+
 <div>
   {{ messages }}
 </div>
+
 <div *ngIf="printing">
   <table>
     <thead>
