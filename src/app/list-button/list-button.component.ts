@@ -1,9 +1,9 @@
 import { Component, OnInit, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: '././app.component.html',
-  styleUrls: ['././app.component.css']
+  selector: 'list-button',
+  templateUrl: './list-button.component.html',
+  styleUrls: ['./list-button.component.css']
 })
 
 export class ListButtonComponent implements OnInit {
